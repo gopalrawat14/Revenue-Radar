@@ -29,21 +29,23 @@ This dashboard is designed to help decision-makers identify trends, monitor perf
 ## 🖼️ Wireframes (ASCII Conceptual)
 
 \`\`\`
-+-------------------------------------------------------------+
-| [Orders] | Navigation Tabs || [Overview] [Sales]             |
-+----------+-------------------------------------------------+
-|          | KPI Cards + Sparklines ||| Sales | Orders | Cust |
-| [Returns]| +--------------------+ +------------------------+
-+----------+ | Segmented Donut Charts || (Gross Profit,        |
-| Operating Profit, || ROA, ROE)                             |
-+-------------------------------------------------------------+
-| Diverging Bar Chart || Sales ↑ | Net | Cost ↓              |
-+-------------------------------------------------------------+
-| Radial Chart by Segment                                     |
-+-------------------------------------------------------------+
-| Cost Breakdown (Lollipop)                                   |
-+-------------------------------------------------------------+
++-------------------------------------------------+
+| NAVIGATION TABS: [Overview] | [Sales]           |
++-----------------------------+-------------------+
+| [ORDERS] |                                      |
++----------+ KPI CARDS + SPARKLINES               |
+| [RETURNS]| | Sales | Orders | Cust |           |
++----------+-------------------------------------+
+| SEGMENTED DONUT CHARTS (Gross Profit, ROA, ROE) |
++-------------------------------------------------+
+| DIVERGING BAR CHART (Sales ↑, Net, Cost ↓)      |
++-------------------------------------------------+
+| RADIAL CHART by Segment                         |
++-------------------------------------------------+
+| COST BREAKDOWN (Lollipop)                       |
++-------------------------------------------------+
 \`\`\`
+
 ---
 
 ## 💡 Features
