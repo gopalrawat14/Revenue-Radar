@@ -26,28 +26,6 @@ This dashboard is designed to help decision-makers identify trends, monitor perf
 
 ---
 
-## 🖼️ Wireframes (ASCII Conceptual)
-
-\`\`\`
-+-------------------------------------------------+
-| NAVIGATION TABS: [Overview] | [Sales]           |
-+-----------------------------+-------------------+
-| [ORDERS] |                                      |
-+----------+ KPI CARDS + SPARKLINES               |
-| [RETURNS]| | Sales | Orders | Cust |           |
-+----------+-------------------------------------+
-| SEGMENTED DONUT CHARTS (Gross Profit, ROA, ROE) |
-+-------------------------------------------------+
-| DIVERGING BAR CHART (Sales ↑, Net, Cost ↓)      |
-+-------------------------------------------------+
-| RADIAL CHART by Segment                         |
-+-------------------------------------------------+
-| COST BREAKDOWN (Lollipop)                       |
-+-------------------------------------------------+
-\`\`\`
-
----
-
 ## 💡 Features
 
 1. **Dynamic KPI Cards**  
@@ -80,22 +58,24 @@ This dashboard is designed to help decision-makers identify trends, monitor perf
 
 ## 📂 Project Structure
 
+\`\`\`
 📦 tableau-dashboard-project
 ┣ 📜 README.md
 ┣ 📂 data/
-┃   ┣ order_sales.xlsx
-┃   ┗ financial_metrics.xlsx
+┃   ┣ order_sales.xlsx
+┃   ┗ financial_metrics.xlsx
 ┣ 📂 images/
-┃   ┣ gradient_background.png
-┃   ┣ icons/
-┃       ┣ sales.png
-┃       ┣ orders.png
-┃       ┣ customers.png
-┃       ┗ returns.png
+┃   ┣ gradient_background.png
+┃   ┣ icons/
+┃       ┣ sales.png
+┃       ┣ orders.png
+┃       ┣ customers.png
+┃       ┗ returns.png
 ┗ 📂 dashboards/
-┣ overview.twbx
-┣ sales.twbx
-┗ orders.twbx
+  ┣ overview.twbx
+  ┣ sales.twbx
+  ┗ orders.twbx
+\`\`\`
 
 ---
 
