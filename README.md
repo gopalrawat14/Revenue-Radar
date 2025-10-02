@@ -51,7 +51,7 @@ Experience the dashboard live on **Tableau Public**:
 ┣ 📜 README.md
 ┣ 📂 data/
 ┃   ┣ order_sales.xlsx
-┃   ┗ financial_metrics.xlsx
+┃
 ┣ 📂 images/
 ┃   ┣ gradient_background.png
 ┃   ┗ icons/
@@ -60,9 +60,8 @@ Experience the dashboard live on **Tableau Public**:
 ┃       ┣ customers.png
 ┃       ┗ returns.png
 ┗ 📂 dashboards/
-    ┣ overview.twbx
-    ┣ sales.twbx
-    ┗ orders.twbx
+    ┣ sales and order dashboard.twbx
+    
 
 ```
     
