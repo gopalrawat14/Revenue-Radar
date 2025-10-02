@@ -58,7 +58,7 @@ This dashboard is designed to help decision-makers identify trends, monitor perf
 
 ## 📂 Project Structure
 
-\`\`\`
+```
 📦 tableau-dashboard-project
 ┣ 📜 README.md
 ┣ 📂 data/
@@ -75,7 +75,7 @@ This dashboard is designed to help decision-makers identify trends, monitor perf
   ┣ overview.twbx
   ┣ sales.twbx
   ┗ orders.twbx
-\`\`\`
+```
 
 ---
 
