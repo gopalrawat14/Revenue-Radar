@@ -25,11 +25,7 @@ Experience the dashboard live on **Tableau Public**:
 
 [View Live Dashboard](https://public.tableau.com/app/profile/gopal.rawat3522/viz/SalesandOrders_17567464534220/Overview)
 
-Or embed it directly in your browser:
 
-```html
-<iframe src="https://public.tableau.com/views/SalesandOrders_17567464534220/Overview?:showVizHome=no&:embed=true" width="100%" height="800px"></iframe>
-```
 ## 🛠️ Tools & Technologies
 
 - **Tableau** – Primary tool for building all visualizations and dashboards.  
@@ -49,6 +45,8 @@ Or embed it directly in your browser:
 
 ---
 
+```
+
 📦 tableau-dashboard-project
 ┣ 📜 README.md
 ┣ 📂 data/
@@ -66,6 +64,7 @@ Or embed it directly in your browser:
     ┣ sales.twbx
     ┗ orders.twbx
 
+```
     
 ## 🔍 Methodology
 
