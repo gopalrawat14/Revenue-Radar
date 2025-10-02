@@ -1,123 +1,108 @@
-# 📊 Advanced Interactive Business Overview Dashboard
+# 📈 Sales & Orders Interactive Dashboard
 
-Welcome to my **Interactive Tableau Dashboard** project! This dashboard offers a comprehensive view of operational and financial metrics, combining design, analytics, and dynamic interactivity to deliver actionable insights at a glance.
+> **Unlock insights. Drive decisions. Visualize business like never before.**
 
----
-
-## 🎯 Project Objective
-
-The goal of this project is to create a visually engaging and intuitive **Overview Dashboard** that allows business users to:
-
-- Quickly track operational KPIs such as sales, orders, customers, and returns.
-- Understand financial performance through segmented donut charts and diverging bar charts.
-- Explore trends over time with sparkline visualizations.
-- Analyze cost breakdowns with gradient lollipop charts.
-- Navigate seamlessly across multiple dashboards: **Overview → Sales → Orders**.
-
-This dashboard is designed to help decision-makers identify trends, monitor performance, and uncover insights without needing to dig into raw data.
+Welcome to the **Sales & Orders Interactive Dashboard**, a visually rich and data-driven solution designed to empower business teams with actionable insights, dynamic metrics, and intuitive navigation. This isn’t just a dashboard — it’s your **decision-making ally**.  
 
 ---
 
+## 🎯 Purpose
+
+This project aims to provide an **all-in-one business overview** by:
+
+- Monitoring sales, orders, customers, and returns at a glance  
+- Analyzing financial performance with segmented visualizations  
+- Tracking trends over time using sparklines and gradient charts  
+- Offering interactive exploration across multiple dashboards: **Overview → Sales → Orders**
+
+> Designed for **decision-makers**, analysts, and business enthusiasts who value **clarity and actionable insights**.
+
+---
+
+## 🖥️ Live Dashboard
+
+Experience the dashboard live on **Tableau Public**:
+
+[View Live Dashboard](https://public.tableau.com/app/profile/gopal.rawat3522/viz/SalesandOrders_17567464534220/Overview)
+
+Or embed it directly in your browser:
+
+```html
+<iframe src="https://public.tableau.com/views/SalesandOrders_17567464534220/Overview?:showVizHome=no&:embed=true" width="100%" height="800px"></iframe>
+```
 ## 🛠️ Tools & Technologies
 
 - **Tableau** – Primary tool for building all visualizations and dashboards.  
 - **Excel** – Source for order, sales, cost, and financial metric data.  
-- **Canva** – Custom gradient backgrounds and icons.  
+- **Canva** – Custom gradient backgrounds, icons, and UI elements.  
 
 ---
 
-## 💡 Features
+## 💡 Key Features
 
-1. **Dynamic KPI Cards**  
-   - Displaying sales, orders, customers, and returns.
-   - Custom formatting: values first, metric names below for clarity.
-   - Color-coded and accompanied by sparkline trend charts.
-
-2. **Segmented Donut Charts (Financial Metrics)**  
-   - Visualize Gross Profit Margin, Operating Profit Margin, ROA, and ROE.
-   - Segmented structure to show each metric’s contribution.
-   - Gradient color palette for enhanced readability.
-
-3. **Diverging Bar Chart for Sales vs. Cost**  
-   - Positive values for sales, negative for costs, with net value in the center.
-   - Highlights quarters with maximum values using markers.
-
-4. **Gradient Radial Chart by Segment**  
-   - Proportionate rings representing segment percentages.
-   - Gradient colors and label positioning for clarity.
-
-5. **Rounded Lollipop Chart (Cost Breakdown)**  
-   - Bars with gradient color and circles at the ends for percentages.
-   - Percentage labels formatted inside circles for quick interpretation.
-
-6. **Seamless Navigation**  
-   - Horizontal navigation tabs linking Overview → Sales → Orders dashboards.
-   - Interactive and intuitive layout for enhanced user experience.
+- **Dynamic KPI Cards**: Display sales, orders, customers, and returns with sparklines and color-coded metrics.  
+- **Segmented Donut Charts**: Visualize Gross Profit Margin, Operating Profit Margin, ROA, and ROE using gradient visuals.  
+- **Diverging Bar Chart**: Compare sales vs. cost with net values highlighted in the center.  
+- **Gradient Radial Charts**: Proportionate representation of segments with clean label positioning.  
+- **Rounded Lollipop Charts**: Gradient bars with circles to show percentages for cost breakdown.  
+- **Seamless Navigation**: Horizontal tabs for Overview → Sales → Orders dashboards.  
 
 ---
 
-## 📂 Project Structure
-
-```
 📦 tableau-dashboard-project
 ┣ 📜 README.md
 ┣ 📂 data/
-┃   ┣ order_sales.xlsx
-┃   ┗ financial_metrics.xlsx
+┃   ┣ order_sales.xlsx
+┃   ┗ financial_metrics.xlsx
 ┣ 📂 images/
-┃   ┣ gradient_background.png
-┃   ┣ icons/
-┃       ┣ sales.png
-┃       ┣ orders.png
-┃       ┣ customers.png
-┃       ┗ returns.png
+┃   ┣ gradient_background.png
+┃   ┗ icons/
+┃       ┣ sales.png
+┃       ┣ orders.png
+┃       ┣ customers.png
+┃       ┗ returns.png
 ┗ 📂 dashboards/
-  ┣ overview.twbx
-  ┣ sales.twbx
-  ┗ orders.twbx
-```
+    ┣ overview.twbx
+    ┣ sales.twbx
+    ┗ orders.twbx
 
----
-
+    
 ## 🔍 Methodology
 
-- Built **all containers, cards, and backgrounds directly in Tableau** using annotations for flexibility.  
-- Used **calculated fields, LOD expressions, and data blending** for complex metrics and multi-source visualizations.  
-- Designed for **dynamic filtering**, allowing automatic visualization of the last 8 quarters for sales, cost, and net.  
-- Ensured **responsive and aesthetically pleasing design** with gradient backgrounds, rounded corners, and aligned containers.
+1. Built all **containers, KPI cards, and charts directly in Tableau** using annotations for flexibility.  
+2. Utilized **calculated fields, LOD expressions, and data blending** for multi-source metrics.  
+3. Designed **dynamic filters** to automatically display the last 8 quarters of data.  
+4. Ensured **responsive and aesthetic design** with gradient backgrounds, rounded corners, and aligned containers.  
 
 ---
 
 ## 🎨 Design Philosophy
 
-- **Clarity over complexity:** Each chart communicates a key insight.  
-- **Color psychology:** Green for positive, red for negative, blue/yellow for neutrality.  
-- **Consistency:** Same layout, typography, and spacing across all dashboards.  
-- **Interactive storytelling:** KPIs → Financial metrics → Detailed breakdowns.
+- **Clarity over complexity**: Each chart communicates a single key insight.  
+- **Color psychology**: Green = positive, Red = negative, Blue/Yellow = neutral.  
+- **Consistency**: Uniform layout, typography, and spacing across dashboards.  
+- **Interactive storytelling**: KPI → Financial metrics → Detailed breakdowns.  
 
 ---
 
 ## 🚀 Impact
 
-- Enables business teams to quickly monitor operational and financial performance.  
-- Reduces the need for manual report generation.  
-- Highlights key metrics and trends for actionable decision-making.  
-
----
-
-## 🔗 Connect With Me
-
-- **LinkedIn:** [Gopal Rawat](https://www.linkedin.com/in/gopalrawat/)  
-- **Email:** gopalrawwatt@gmail.com  
+- Quick **monitoring of operational and financial performance**.  
+- Reduces manual report generation effort.  
+- Highlights trends and insights for **faster decision-making**.  
 
 ---
 
 ## ⭐ How to Use
 
-1. Download the repository.  
+1. Clone or download this repository.  
 2. Open `.twbx` files in Tableau Desktop.  
-3. Explore the interactive visualizations and navigation tabs.  
+3. Interact with KPIs, charts, and dashboards.  
+4. Explore trends, filters, and navigation tabs for insights.  
 
 ---
 
-> ⚡ This is not just a dashboard — it’s a **decision-making tool**, designed to empower business users with both **clarity and insight**.
+## 🔗 Connect With Me
+
+- **LinkedIn**: [Gopal Rawat](https://www.linkedin.com/in/gopalrawat/)  
+- **Email**: gopalrawwatt@gmail.com  
